@@ -41,7 +41,6 @@ function getRandomSet(grade) {
 // Display a random question from the current set
 function displayRandomQuestion() {
     if (currentSet.length === 0) {
-        alert(`You've finished this set of questions! Your final score is: ${score}`);
         currentSet = getRandomSet(selectedGrade); // Get a new random set
         displayRandomQuestion();  // Show a question from the new set
         return;

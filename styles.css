@@ -12,6 +12,13 @@ body {
     font-size: 2em;
 }
 
+#score-value {
+    font-size: 1em;
+}
+
+#answer-display {
+    font-size: 1.7em;
+}
 
 .container {
     text-align: center;
